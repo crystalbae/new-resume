@@ -1,0 +1,34 @@
+.App {
+  padding: 50px;
+}
+
+.profile {
+  height: 220px;
+  margin-bottom: 50px;
+}
+
+.profile .profile-img {
+  background-image: url('./profile.jpg');
+  background-size: 200px;
+  width: 200px;
+  height: 220px;
+  border-radius: 100px;
+  display: inline-block;
+}
+
+.profile .personal-info {
+  height: 220px;
+  position: absolute;
+  display: inline-block;
+}
+
+
+@media screen and (max-width: 540px) {
+  .App {
+    padding: 0px;
+  }
+
+  .profile {
+    padding: 20px;
+  }
+}

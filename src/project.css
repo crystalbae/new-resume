@@ -1,0 +1,136 @@
+.tab-list {
+  width: 100%;
+}
+
+.tab-list .tab {
+  width: 50%;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 2px solid white;
+}
+
+.tab-list .tab.active {
+  animation: tab-animation 0.5s;
+  animation-timing-function: ease-out;
+  background-color: #EDEDED;
+  border-bottom-color: white;
+}
+
+@keyframes tab-animation {
+  from { background-color: white; border-bottom-color: #EDEDED; }
+  to   { background-color: #EDEDED; border-bottom-color: white; }
+}
+
+.tab-list span.glyphicon-ok {
+  font-size: 15px;
+  margin-right: 7px;
+  visibility: hidden;
+}
+
+.tab-list span.glyphicon-ok.active {
+  visibility: visible;
+}
+
+.tab-list .tab a {
+  width: 100%;
+  color: gray;
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  text-decoration: none;
+}
+
+.tab-list .tab.active a {
+  color: black;
+}
+
+.tab-list .tab a:hover {
+  cursor: pointer;
+}
+
+.project {
+  display: none;
+  padding: 50px 30px 60px 30px;
+  text-align: center;
+  background-color: #EDEDED;
+}
+
+.project.active {
+  display: block;
+}
+
+.project p {
+  font-size: 20px;
+}
+
+.project .links {
+  width: 410px;
+  height: 40px;
+  line-height: 40px;
+  left: 50%;
+  margin-left: -200px;
+  display: block;
+  position: absolute;
+}
+
+.project .links a {
+  width: 200px;
+  color: #363636;
+  font-size: 13px;
+  margin-right: 5px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.project .links a:hover {
+  cursor: pointer;
+}
+
+.project .links span {
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+video.kakao-video {
+  margin-top: 70px;
+  width: 70%;
+}
+
+video.todo-video {
+  margin-top: 70px;
+  width: 70%;
+}
+
+@media screen and (max-width: 540px) {
+  .project {
+    padding: 20px;
+  }
+
+  .project p {
+    font-size: 15px;
+  }
+
+  .project .links a {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+  }
+
+  video.kakao-video {
+    width: 100%;
+    margin-top: 90px;
+  }
+
+  video.todo-video{
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .project .links #kakao-link {
+    margin-top: 35px;
+  }
+}
