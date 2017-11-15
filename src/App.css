@@ -8,6 +8,7 @@
   padding: 40px 50px 40px 50px;
   margin-bottom: 25px;
   box-shadow: 0 10px 6px -6px #C4C4C4;
+  box-sizing: border-box;
 }
 
 p.title {
@@ -93,28 +94,32 @@ p.title i {
     padding: 0px;
   }
 
-  .intro {
-    height: 210px;
-  }
-
-  .intro .text {
-    width: 48%;
-  }
-
-  .intro .profile-img {
-    margin-right: 20px;
-  }
-
   .box {
     padding: 30px 20px 30px 20px;
   }
 
+  .intro {
+    height: 180px;
+  }
+
+  .intro .text {
+    width: 48%;
+    margin-top: 10px;
+  }
+
+  .intro .profile-img {
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+  }
+
   .intro h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .intro p {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .profile li {
