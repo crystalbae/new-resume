@@ -40,7 +40,7 @@ class Project extends Component {
           <div id="kakao" className="project active">
             <p>카카오뱅크의 비상금 대출 웹페이지를 따라서 만들어본 프로젝트</p>
             <div className="links">
-              <a href="http://54.238.154.69:3000/" rel='noopener noreferrer' className="btn btn-default" target="_blank"><span className="glyphicon glyphicon-link"></span>프로젝트 열어보기</a>
+              <a href="http://54.249.17.26:3001/" rel='noopener noreferrer' className="btn btn-default" target="_blank"><span className="glyphicon glyphicon-link"></span>프로젝트 열어보기</a>
               <a className="btn btn-default" id="kakao-link" href="https://www.kakaobank.com/app/products/emergencyLoan/share" target="_blank" rel='noopener noreferrer'><span className="glyphicon glyphicon-link"></span>원본 카카오페이지 바로가기</a>
             </div>
             <video src={kakao} className="kakao-video" controls="controls" autoPlay="no" loop />
@@ -48,7 +48,7 @@ class Project extends Component {
           <div id="todo" className="project">
             <p>Todo 프로젝트</p>
             <div className="links">
-              <a href="http://54.238.154.69:3002/" className="btn btn-default" target="_blank" rel='noopener noreferrer'><span className="glyphicon glyphicon-link"></span>프로젝트 열어보기</a>
+              <a href="http://54.249.17.26:3002/" className="btn btn-default" target="_blank" rel='noopener noreferrer'><span className="glyphicon glyphicon-link"></span>프로젝트 열어보기</a>
             </div>
             <video src={todo} className="todo-video" controls="controls" autoPlay="no" loop />
           </div>
