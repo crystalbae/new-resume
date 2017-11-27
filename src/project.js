@@ -29,10 +29,10 @@ class Project extends Component {
         <p className="title"><i className="fa fa-folder-open-o" aria-hidden="true"></i>My Portfolio</p>
         <div className="tab-list">
           <div className="tab active" id="kakao-tab">
-            <a onClick={this.tabChange.bind(this, "kakao")}><span className="glyphicon glyphicon-ok active"></span>kakao project</a>
+            <a onClick={this.tabChange.bind(this, "kakao")}><span className="glyphicon glyphicon-ok active"></span>Kakao Project</a>
           </div>
           <div className="tab" id="todo-tab">
-            <a onClick={this.tabChange.bind(this, "todo")}><span className="glyphicon glyphicon-ok"></span>todo project</a>
+            <a onClick={this.tabChange.bind(this, "todo")}><span className="glyphicon glyphicon-ok"></span>Todo Project</a>
           </div>
         </div>
 

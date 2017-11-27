@@ -22,7 +22,7 @@ class App extends Component {
             프로그래밍과는 전혀 인연이 없었지만, IT 기술이 우리 일상 깊숙이 파고든 만큼 변화하는 시대에 발 맞추기 위해 처음에는 취미삼아 공부를 시작했습니다.
           </p>
           <p className="introduce">
-            생활 코딩, 코드카데미 같은 온라인 강좌나 책을 통해 독학하였고, 기본 적인 싱글 페이지 웹은 만들수 있게 되었습니다.
+            코드카데미 같은 온라인 강좌나 책을 통해 독학하였고, 기본 적인 싱글 페이지 웹은 만들수 있게 되었습니다.
             처음에는 ‘내가 과연 구현할 수 있을까?’ 했던 기술도 대부분 구글링을 통해 스스로 해결해나가며 재미를 느꼈습니다.
             하지만 혼자서만 독학으로 개발을 배우고 무언가를 만드는데 한계를 느꼈고,
             다른 사람들과의 협업을 통해 어떠한 서비스에 제가 조금이라도 기여할 수 있었으면 좋겠다는 바람이 생겼습니다.
@@ -38,7 +38,7 @@ class App extends Component {
             점차 다양한 기능들이 하나씩 추가되고 코드가 복잡해지는것을 느끼면서 부터는,
             누가 보아도 이해하기 쉬운 가독성 좋은 코드를 쓰기 위해 노력하고 있습니다.
           </p>
-          <span className="details">PERSONAL DETAILS</span>
+          <span className="details">Personal Details</span>
           <ul>
             <li><span className="info-label">이름:</span> 배수정</li>
             <li><span className="info-label">학력:</span> 한성대학교 의류패션산업학과 졸업</li>
