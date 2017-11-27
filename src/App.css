@@ -63,8 +63,12 @@ p.title i {
 .profile p.introduce {
   color: #8A8A8A;
   line-height: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   /*font-style: italic;*/
+}
+
+.profile p.introduce.last {
+  margin-bottom: 30px;
 }
 
 .profile span.details {
